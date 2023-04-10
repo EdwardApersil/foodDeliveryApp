@@ -10,17 +10,16 @@ import Deliver from "../Components/Deliver";
 // import Testemonials from "../Components/Testemonials"
 import Download from "../Components/Download";
 
-
 const Home = () => {
   return (
     <>
       <Navigation />
       <Hero />
       <Categories />
-      <Deliver/>
+      <Deliver />
       <Popular />
       <Ads />
-      <Download/>
+      <Download />
       {/* <Testemonials/> */}
       <Footer />
       <Deal />
