@@ -1,0 +1,527 @@
+body{
+  box-sizing: border-box;
+  padding: 0;
+  border: 0;
+  background-color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo{
+  font-size: 30px;
+  color: green;
+}
+
+.logo span{
+  color: rgba(217, 217, 14, 0.858);
+  color: green;
+}
+
+.navigation{
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 10px;
+  margin-top: -2rem;
+  max-width: 1225px;
+  width: 90vw;
+  margin: 0 auto;
+  margin-top: -2rem;
+}
+
+.navigation-links{
+  margin-top: 3rem;
+}
+
+
+.btn button{
+  margin-top: 3rem;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid green !important;
+  width: 150px;
+  background-color: aliceblue;
+  color: green;
+  display: inline-block;
+}
+
+.btn button:hover{
+  background-color: rgba(198, 198, 198, 0.505);
+  color: white;
+}
+
+/* Hero section */
+
+.hero{
+  background-image: url('/src/images/hero.png');
+  background-repeat: no-repeat;
+  padding: 8rem;
+  border-radius: 4px;
+  margin-top: -1rem;
+}
+
+.hero-content{
+  text-align: center;
+  color: white;
+  background-color: rgba(14, 14, 13, 0.227);
+  padding: 1.5rem;
+  border-radius: 4px;
+}
+
+.hero-content h1{
+  text-align: center;
+}
+
+.hero-content p{
+  width: 0 auto;
+  max-width: 500px;
+  margin-left: 22rem;
+}
+
+.foodSearch{
+  background-color: white;
+  padding: 15px;
+  border-radius: 4px;
+  margin: 10px;
+  width: 700px;
+  margin-left: 13rem;
+  box-shadow: 1px 2px 2px 1px #C9A887;
+}
+
+.foodSearch input{
+  padding: 10px;
+  width: 200px;
+  border-radius: 3px;
+  border: 2px solid #C9A887;
+  margin-left: -10px;
+  margin: 10px;
+}
+
+.foodSearch select{
+  padding: 10px;
+  width: 200px;
+  border-radius: 3px;
+  border: 2px solid #C9A887;
+  margin-left: -10px;
+}
+
+
+.foodSearch button{
+  padding: 10px;
+  border-radius: 3px;
+  width: 100px;
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: green;
+  border: none;
+  color: white;
+}
+
+.foodSearch button:hover{
+  background-color: #C9A887;
+}
+
+/* Cards */
+
+.categories{
+  max-width: 1225px;
+  width: 90vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.categories span hr{
+  width: 50px;
+  color: green;
+  font-size: 30px;
+  background-color: green;
+  margin-top: 1rem;
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+}
+
+.card{
+  border: 1px solid green !important;;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 1px 2px 2px 1px gray transparent;
+}
+
+.card:hover{
+  background-color: white;
+  box-shadow: 2px rgba(128, 128, 128, 0.66);
+}
+
+
+/* Popular */
+.popular{
+  max-width: 1225px;
+  width: 90vw;
+  margin: 0 auto;
+  margin-top: 3rem;
+  background-color: white;
+  padding: 4rem;
+  border-radius: 4px;
+}
+
+.popular span hr{
+  width: 50px;
+  color: green;
+  font-size: 30px;
+  background-color: green;
+}
+
+.heading h2{
+  font-size: 30px;
+}
+
+.sub-heading{
+  display: flex;
+  justify-content: space-between;
+  margin-top: -2rem;
+}
+
+
+
+.popular-cards{
+  display: flex;
+  margin-left: -0.5rem;
+}
+
+.cards1{
+  background-color: aliceblue;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 10px;
+  width: 200px;
+  height: 250px;
+}
+
+.main-card1{
+  background-image: url('/src/images/food1.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 17px;
+  color: white;
+}
+
+.cards1 button{
+  background-color: white;
+  border: 1px solid green;
+  margin-top: 15px;
+  border-radius: 4px;
+  color: green;
+}
+
+
+.cards1 h6{
+  margin-top: -1px;
+  background-color: rgba(219, 218, 218, 0.651);
+  border-radius: 4px;
+  width: 30px;
+  text-align: center;
+  padding: 5px;
+}
+
+/* Ads */
+
+.ads{
+  max-width: 1225px;
+  width: 90vw;
+  margin: 0 auto;
+  background-image: url("/src/images/hero.png");
+  background-repeat: no-repeat;
+  padding: 4rem;
+  border-radius: 4px;
+  margin-top: 3rem;
+  color: white;
+}
+
+.ads-content{
+  background-color: rgba(14, 14, 13, 0.227);
+  width: 500px;
+  padding: 15px;
+}
+
+.ads-content button{
+  padding: 10px;
+  background-color: green;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  width: 100px;
+}
+
+/* Delivery  */
+
+.delivery {
+  max-width: 1225px;
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+  padding: 3rem;
+}
+
+.delivery .img > img{
+  width: 400px;
+  height: 550px;
+}
+
+.delivery-content{
+  margin-left: 3rem;
+  /* margin-top: 1rem; */
+}
+
+.delivery-content h2{
+  font-size: 37px;
+  color: green !important;
+  width: 400px;
+}
+
+.all-cards{
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-gap: 20px;
+  margin-top: 2rem;
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  /* margin: 10px 5px; */
+}
+
+.d-cards p{
+  width: 280px;
+  font-size: 13px;
+}
+
+
+/* Test */
+
+.testmonials{
+  max-width: 1225px;
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  padding: 3rem;
+  margin-top: 2rem;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.test{
+  margin: 10px;
+}
+
+
+/* Download */
+
+.download{
+  max-width: 1225px;
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+.download-content {
+  width: 400px;
+  margin-top: 1rem;
+}
+
+.download-content h2 {
+  font-size: 37px;
+  color: green !important;
+  width: 400px;
+}
+
+.down-store {
+  display: flex;
+}
+
+.store{
+  margin-left: -15px;
+  display: flex;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.store:hover{
+  background-color: rgba(228, 228, 228, 0.482);
+  color: rgb(0, 0, 0);
+}
+
+
+
+/* Footer */
+
+.footer{
+  max-width: 1225px;
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem;
+}
+
+.right{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.links{
+  margin-right: 30px;
+}
+
+.links li{
+  text-decoration: none;
+  list-style-type: none;
+  margin-top: 5px;
+  color: black;
+  cursor: pointer;
+}
+
+.links li:hover{
+  color: green;
+}
+
+.links h3{
+  color: green;
+  font-size: 20px;
+}
+
+.left{
+  width: 300px;
+}
+
+
+/* SignUp Page */
+
+.signup{
+  max-width: 1225px;
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 6rem; 
+ 
+}
+
+.signup-img{
+  /* background-color: rgba(8, 7, 7, 0.114); */
+  padding: 4rem;
+  border-radius: 4px;
+  /* margin-right: 5rem; */
+}
+
+.right-form{
+  margin-top: 2rem;
+  padding: 3rem;
+  /* background-color: rgba(0, 128, 0, 0.448); */
+}
+
+.right-form h1{
+  text-align: center;
+  color: rgba(0, 128, 0, 0.69);
+  
+}
+
+.right-form input{
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 1px 1px 0px 0px rgba(186, 184, 184, 0.889);
+  border: none;
+  width: 300px;
+  margin-left: 2rem;
+}
+
+.right-form input:active{
+  background-color: rgba(0, 128, 0, 0.862);
+  border: none;
+}
+
+.right-form form{
+  /* background-color: rgba(0, 128, 0, 0.448); */
+  padding: 4rem;
+  border-radius: 5px;
+  box-shadow: 2px 1px 2px rgba(128, 128, 128, 0.766) transparent;
+}
+
+label {
+  font-weight: bold;
+  color: #ffffff96;
+  margin-bottom: 20px;
+}
+
+.right-form form > button {
+  margin-top: 20px;
+  margin-left: 6rem;
+  padding: 10px;
+  width: 200px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: rgba(0, 128, 0, 0.862);
+  /* background-color: orange; */
+  color: white;
+  font-weight: bold;
+}
+
+.right-form form > button:hover {
+  background-color: rgba(0, 128, 0, 0.862);
+}
+
+.right-form form > p{
+  text-align: center;
+  margin-left: 2rem;
+}
+
+
+
+/* Food Page */
+.product-section{
+  max-width: 1225px;
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.search-product{
+  display: flex;
+}
+
+.search input{
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  width:  250px;
+}
+
+.list{
+  margin-left: 2rem;
+  margin-top: 10px;
+}
+
+.list li{
+  list-style-type: none;
+  display: inline;
+  margin: 10px;
+  cursor: pointer;
+  border: 1px solid green;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.list li:hover{
+  background-color: rgba(196, 196, 196, 0.525) !important;
+}
+
